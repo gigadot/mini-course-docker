@@ -188,10 +188,6 @@ docker run -v /my/own/datadir:/var/lib/mysql --name my-mysql -e MYSQL_ROOT_PASSW
 docker volume create xxx
 
 docker volume ls
-
-docker run with volume
-
-
 ```
 
 ## Try Wordpress with MySQL
@@ -272,6 +268,4 @@ docker run -e MYSQL_DATABASE=wordpress \
 
 
 ## Homework 3 - Multi Stage Build
-Explore multi stage build in docker. 
-
-
+Explore multi stage build in docker. You can try to refactor their Dockerfiles to include build steps and include environment variables that allow you to customize the IP/endpoints of the frontend/server APIs.
