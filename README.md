@@ -18,6 +18,9 @@ https://www.youtube.com/results?search_query=docker
 https://www.google.com/search?q=docker+tutorial
 
 ## What is Docker?
+
+https://pointful.github.io/docker-intro/#/
+
 Docker is essentially an Object Oriented Programming (OOP) for system programming. The software or application is packaged inside a **docker image** (class), which will be run (instantiated) as a **container** (object). Thus, **docker image** is a blueprint of the **docker container**. 
 
 ## Hello World (Of Course)
